@@ -1,0 +1,55 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 4fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 10px;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  display: block;
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+.iframe-grid {
+  display: grid;
+  grid-column: 0;
+  grid-row: 0;
+  grid-template-columns: auto 4fr; /* Dos columnas: una para la etiqueta y otra para el input */
+  grid-gap: 10px; /* Espacio entre celdas */
+}
+.form-grid {
+  display: grid;
+  grid-column: 3;
+  grid-row: 0;
+  grid-template-columns: auto 4fr; /* Dos columnas: una para la etiqueta y otra para el input */
+  grid-gap: 10px; /* Espacio entre celdas */
+}
+
+label {
+  text-align: right; /* Alinea las etiquetas a la derecha */
+}
+
+
+
