@@ -12,7 +12,7 @@ def index():
     datosFormatoJSON = datosObtenidos.json()
     print(datosFormatoJSON)
 
-    return render_template('pruebazona.html')
+    return render_template('indice.html')
     #return render_template('myapp.html')
 
 if __name__ == '__main__':
